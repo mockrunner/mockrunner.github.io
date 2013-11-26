@@ -4,7 +4,7 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Mockrunner.github.io : Mock objects for enterprise application testing" />
+    <meta name="description" content="Mockrunner.github.io : Mock classes for enterprise application testing" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
@@ -19,7 +19,7 @@
           <a id="forkme_banner" href="https://github.com/mockrunner">View on GitHub</a>
 
           <h1 id="project_title">Mockrunner.github.io</h1>
-          <h2 id="project_tagline">Mock objects for enterprise application testing</h2>
+          <h2 id="project_tagline">Mock classes for enterprise application testing</h2>
 
         </header>
     </div>
@@ -34,30 +34,49 @@
 
 <p>We reorganized the project into a maven structure and are now deploying release versions to the maven central repository.</p>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<h3>
+<a name="mockrunner-modules" class="anchor" href="#mockrunner-modules"><span class="octicon octicon-link"></span></a>Mockrunner Modules</h3>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<p>Mockrunner has been split into modules so that you don't have to pull all the dependencies if you only want to use one type of mock objects.</p>
+
+<p>List of available modules:</p>
+
+<ul>
+<li>mockrunner-jms</li>
+<li>mockrunner-ejb</li>
+<li>mockrunner-jdbc</li>
+<li>mockrunner-jca</li>
+<li>mockrunner-servlet</li>
+<li>mockrunner-tag</li>
+<li>mockrunner-struts</li>
+<li>mockrunner-all</li>
+</ul><h3>
+<a name="download-mockrunner" class="anchor" href="#download-mockrunner"><span class="octicon octicon-link"></span></a>Download Mockrunner?</h3>
+
+<p>No need to download mockrunner if you have a maven project. Just add a dependency you want to use:</p>
+
+<pre><code>&lt;com.mockrunner&gt;
+&lt;mockrunner-jms&gt;
+&lt;${mockrunner-version}&gt;
 </code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p>Mockrunner releases include bytecode, sources, javadoc and tests bytecode for every module:</p>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="maven-site-on-github" class="anchor" href="#maven-site-on-github"><span class="octicon octicon-link"></span></a>Maven site on Github</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p>See the Mockrunner maven site <a href="http://mockrunner.github.io/mockrunner">here</a> for detailed technical information about the project and it's modules. You'll find javadoc and usage examples.</p>
 
 <h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<a name="suggestions-and-bug-reporting" class="anchor" href="#suggestions-and-bug-reporting"><span class="octicon octicon-link"></span></a>Suggestions and Bug reporting</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>Please use git <a href="https://github.com/mockrunner/mockrunner/issues">issues</a> on the mockrunner repository to report any issues, or ask for new features. Your suggestions and contributions are most welcome.</p>
 
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
 <p>In 2007, Alwin Ibba (<a href="https://github.com/ibbaa" class="user-mention">@ibbaa</a>) founded Mockrunner together with Jeremy Whitlock and Gábor Lipták. With web design contributions from Jeremy Whitlock and Nick Myers, they set up the project on sourceforge.
-Mockrunner became very popular registering a great deal interest from the developer community and of weekly downloads.</p>
+Mockrunner became very popular registering a great deal interest from the developer community and weekly downloads.</p>
 
 <p>Bob McCune has written an excellent <a href="https://today.java.net/pub/a/today/2005/09/13/container-free-testing-with-mockrunner.html">article</a> on Mockrunner.</p>
 
@@ -66,7 +85,7 @@ Mockrunner became very popular registering a great deal interest from the develo
 <h3>
 <a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Check out the documentation at <a href="http://mockrunner.github.com/mockrunner">http://mockrunner.github.com/mockrunner</a> or contact <a href="mailto:cemartins@mockrunner.com">cemartins@mockrunner.com</a> and we’ll help you sort it out.</p>
+<p>Check out the documentation at <a href="http://mockrunner.github.io/mockrunner">http://mockrunner.github.io/mockrunner</a> or contact <a href="mailto:cemartins@mockrunner.com">cemartins@mockrunner.com</a> and we’ll help you sort it out.</p>
       </section>
     </div>
 
