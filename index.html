@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Mockrunner : Mock classes for enterprise application testing" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Mockrunner</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mockrunner">View on GitHub</a>
+
+          <h1 id="project_title">Mockrunner</h1>
+          <h2 id="project_tagline">Mock classes for enterprise application testing</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="welcome-to-the-new-mockrunner-joint" class="anchor" href="#welcome-to-the-new-mockrunner-joint"><span class="octicon octicon-link"></span></a>Welcome to the new Mockrunner joint.</h3>
+
+<p>This is an evolution of the <a href="http://mockrunner.sourceforge.net">original</a> Mockrunner project founded by Alwin Ibba in 2003. Same source but now with a new home and a new shape.</p>
+
+<p>We reorganized the project into a maven structure and are now deploying release versions to the maven central repository.</p>
+
+<h3>
+<a name="mockrunner-modules" class="anchor" href="#mockrunner-modules"><span class="octicon octicon-link"></span></a>Mockrunner Modules</h3>
+
+<p>Mockrunner has been split into modules so that you don't have to pull all the dependencies if you only want to use one type of mock objects.</p>
+
+<p>List of available modules:</p>
+
+<ul>
+<li>mockrunner-jms</li>
+<li>mockrunner-ejb</li>
+<li>mockrunner-jdbc</li>
+<li>mockrunner-jca</li>
+<li>mockrunner-servlet</li>
+<li>mockrunner-tag</li>
+<li>mockrunner-struts</li>
+<li>mockrunner-all</li>
+</ul><h3>
+<a name="key-references" class="anchor" href="#key-references"><span class="octicon octicon-link"></span></a>Key References</h3>
+
+<p>The Mockrunner maven site <a href="http://mockrunner.github.io/mockrunner">here</a> has detailed technical information about the project and it's modules. You'll find javadoc and usage examples too.</p>
+
+<p>The Mockrunner project repository is <a href="https://github.com/mockrunner/mockrunner">here</a>. Come in and be social.</p>
+
+<h3>
+<a name="download-mockrunner" class="anchor" href="#download-mockrunner"><span class="octicon octicon-link"></span></a>Download Mockrunner?</h3>
+
+<p>No need to download mockrunner if you have a maven project. Just add a dependency you want to use, such as JMS in the example below:</p>
+
+<pre><code>&lt;groupId&gt;com.mockrunner&lt;/groupId&gt;
+&lt;artifactId&gt;mockrunner-jms&lt;/artifactId&gt;
+&lt;version&gt;${mockrunner-version}&lt;/version&gt;
+</code></pre>
+
+<p>Mockrunner releases include jar, sources, javadoc and tests for every module. See the lastest release on <a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.mockrunner%22">Maven Central</a>.</p>
+
+<p>Of course, if you must download the artifacts manually, you can do so directly from sonatype at <a href="http://oss.sonatype.org/content/groups/public/com/mockrunner">http://oss.sonatype.org/content/groups/public/com/mockrunner</a></p>
+
+<h3>
+<a name="suggestions-and-bug-reporting" class="anchor" href="#suggestions-and-bug-reporting"><span class="octicon octicon-link"></span></a>Suggestions and Bug reporting</h3>
+
+<p>Please use git <a href="https://github.com/mockrunner/mockrunner/issues">issues</a> on the mockrunner repository to report any issues, or ask for new features. Your suggestions and contributions are most welcome.</p>
+
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>In 2003, Alwin Ibba (<a href="https://github.com/ibbaa" class="user-mention">@ibbaa</a>) founded Mockrunner together with Jeremy Whitlock and Gábor Lipták. With web design contributions from Jeremy Whitlock and Nick Myers, they set up the project on sourceforge.
+Mockrunner became very popular registering a great deal of interest from the developer community and a fair amount of weekly downloads.</p>
+
+<p>Bob McCune has written an excellent <a href="https://today.java.net/pub/a/today/2005/09/13/container-free-testing-with-mockrunner.html">article</a> on Mockrunner (apparently this link is dead).</p> 
+<p> But here is a similar(?) <a href="https://community.oracle.com/docs/DOC-983395">article</a> by chrisadamson from Container-free Testing with Mockrunner Blog.</p>
+
+<p>In 2013 Steiner Bang (<a href="https://github.com/steinarb" class="user-mention">@steinarb</a>) brought the code to Github and Carlos Martins (<a href="https://github.com/cemartins" class="user-mention">@cemartins</a>) reshaped it into a multi-module maven project. Carlos was later promoted to project lead and main developer.</p>
+
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Check out the documentation at <a href="http://mockrunner.github.io/mockrunner">http://mockrunner.github.io/mockrunner</a> or contact <a href="mailto:cemartins@mockrunner.com">cemartins@mockrunner.com</a> and we’ll help you sort it out.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-36088259-3");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
